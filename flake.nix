@@ -147,11 +147,11 @@
           '';
         };
       };
-      flake = {
-        templates.default = {
-          path = ./.;
-          description = "Starter Template for Android Development";
-        };
+    }
+    // {
+      templates.default = {
+        path = ./.;
+        description = "Starter Template for Android Development";
       };
     };
 }
