@@ -148,7 +148,7 @@
         };
       };
       flake = {
-        templates.android = {
+        templates.default = {
           path = ./.;
           description = "Starter Template for Android Development";
         };
