@@ -4,7 +4,6 @@
 
 This is a minimal Flutter Android-only starter project configured for NixOS using a flake-based development environment. It avoids iOS, web, and desktop clutter, focusing solely on Android development.
 
----
 
 ## Prerequisites
 
@@ -13,7 +12,6 @@ This is a minimal Flutter Android-only starter project configured for NixOS usin
 * Flutter installed (via nix or manual setup)
 * Emulator or physical Android device for testing
 
----
 
 ## Getting Started
 
@@ -30,7 +28,6 @@ cd <project-name>
 direnv allow
 ```
 
----
 
 ## Renaming the App
 
@@ -46,4 +43,3 @@ If you want to rename your project (e.g., changing app/package name), update the
 
 **Tip:** Make sure the `package` in `AndroidManifest.xml` matches the `applicationId` in `build.gradle`.
 
----
