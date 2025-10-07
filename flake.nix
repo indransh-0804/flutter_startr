@@ -135,4 +135,8 @@
         GRADLE_OPTS = "-Dorg.gradle.project.android.aapt2FromMavenOverride=$HOME/.android-sdk/build-tools/34.0.0/aapt2";
       };
     });
+  flake.templates.default = {
+    path = ./.;
+    description = "Rust Project template with Nix DevShell";
+  };
 }
